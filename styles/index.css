@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+    background-color: #1C1C1C;
+}
+.container{
+margin: auto;
+    width: 50%;
+    padding: 100px;
+}
+.main{
+    position: relative;
+        width: 550px;
+        height: 550px;
+        margin: auto;
+    
+        background: #1F2937;
+}
+
+.heading {
+        position: absolute;
+        width: 354px;
+        height: 80px;
+        left: 52px;
+        top: 40px;
+    
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+        /* or 100% */
+    
+        letter-spacing: -0.025em;
+    
+        /* white */
+    
+        color: #FFFFFF;
+}
+
+.heading span{
+    color: #4ADF86;
+}
+
+.supporting_text{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 163px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+
+}
+
+.generator-btn {
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 17px 9px 15px;
+        gap: 12px;
+    
+        position: absolute;
+        width: 223px;
+        height: 42px;
+        left: 52px;
+        top: 287px;
+    
+        background: #10B981;
+        /* shadow/sm */
+    
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+}
+.password_length {
+    position: absolute;
+
+    left: 285px;
+    top: 293px;
+
+
+}
+.password_length input{
+    width: 121px;
+    height: 24px;
+    background-color: #10B981;
+    color: #fff;
+    text-align: center;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+                border-radius: 6px;
+    
+
+}
+::placeholder{
+    color: #fff;
+
+}
+.generator-btn:hover{
+    background-color: #10b981a1;
+    cursor: pointer;
+}
+.generator-btn span {
+    width: 159px;
+        height: 24px;
+    
+        /* text-base/leading-6/font-medium */
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+    
+        /* white */
+    
+        color: #FFFFFF;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.line {
+    position: absolute;
+        width: 446px;
+        height: 0px;
+        left: 52px;
+        top: 364px;
+    
+        border: 1px solid #2F3E53;
+}
+
+.rectangle{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+
+
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #55F991;
+}
+
+#rectangle_1{
+    left: 52px;
+    top: 399px;
+
+}
+
+#rectangle_2{
+    left: 287px;
+    top: 399px;
+
+}
+#rectangle_3 {
+    left: 52px;
+    top: 465px;
+
+}
+
+#rectangle_4 {
+    left: 287px;
+    top: 465px;
+
+}

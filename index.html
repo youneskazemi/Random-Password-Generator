@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <p class="heading">Generate a <br /><span>random password</span></p>
+        <p class="supporting_text">Never use an insecure password again.</p>
+        <button
+          onclick="generateRandomPassword()"
+          class="generator-btn"
+          type="button"
+        >
+          <svg
+            width="14"
+            height="18"
+            viewBox="0 0 14 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8.30064 0.0462736C8.71692 0.177494 9 0.563541 9 1.00001V6.00001L13 6.00001C13.3729 6.00001 13.7148 6.20747 13.887 6.5382C14.0592 6.86893 14.0331 7.268 13.8192 7.57347L6.81924 17.5735C6.56894 17.931 6.11564 18.085 5.69936 17.9537C5.28309 17.8225 5 17.4365 5 17L5 12H1C0.627127 12 0.285222 11.7926 0.113024 11.4618C-0.0591735 11.1311 -0.0330591 10.732 0.180771 10.4265L7.18077 0.426549C7.43107 0.0689788 7.88436 -0.0849466 8.30064 0.0462736Z"
+              fill="white"
+            />
+          </svg>
+          <span>Generate passowrds</span>
+        </button>
+        <div class="password_length">
+          <input
+            id="password_length"
+            placeholder="Length(5-20)"
+            type="number"
+            min="5"
+            max="20"
+          />
+        </div>
+
+        <div class="line"></div>
+        <div id="rectangle_1" class="rectangle"></div>
+        <div id="rectangle_2" class="rectangle"></div>
+        <div id="rectangle_3" class="rectangle"></div>
+        <div id="rectangle_4" class="rectangle"></div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
